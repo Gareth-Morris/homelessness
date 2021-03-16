@@ -344,9 +344,18 @@ body {
 	font-family: 'bebas neue', cursive;
 }
 
+@media (max-width: 425px) {
+	
+	#sidebar ul li a{
+		color:red;
+		font-size: 32pt;
+	}
+
+
+}
 
 /* media queries */
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {*/
 	.page-header .top-nav {
 		float: right;
 		display: block;
@@ -404,7 +413,7 @@ body {
 		min-width: 15em;
 		margin-left: 3em;
 	}
-}
+/*}*/
 /* End BODY STYLES */
 
 /* BLOG STYLES */
@@ -514,6 +523,21 @@ body {
 	display: inline-block;
 	list-style-type: none;
 }
+
+@media (max-width: 425px) {
+	
+	#sidebar li {
+		display: block;
+	}
+	.menu-item {
+		text-align: center;
+	}
+
+	#sidebar {
+		margin: auto;
+	}
+}
+
 #sidebar .widget {
 	padding: 1.75em 1.8em 0;
 }
@@ -826,11 +850,11 @@ body {
 /* HOMEPAGE STYLES */
 .home {
 	width: 100%;
-	background: url(img/homepage-photo.jpg) no-repeat center center;
+	background: url(img/homepage-photo.jpg) no-repeat center center, black;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover, cover;
 }
 .home .page-header {
 	display: none;
@@ -915,6 +939,11 @@ body {
 
 /* media queries */
 @media (min-width: 768px) {
+
+	.home {
+		max-height: 1300px;
+	}
+
 	.home .main-content {
 		float: right;
 	}
@@ -922,6 +951,28 @@ body {
 		float: right;
 	}
 }
+
+@media (max-width: 425px) {
+	.home .main-content {
+		float: left;
+	}
+
+	.home .content h2 {
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.home .content h1 {
+		text-align: center;
+	}
+
+	.home .content {
+		float: left;
+	}
+
+
+}
+
 /* End HOMEPAGE STYLES */
 
 #list-two a{
@@ -939,11 +990,11 @@ body {
 .page-id-37 {
 	height: auto;
 	width: 100%;
-	background: url(img/shoes.png) no-repeat center center;
+	background: url(img/shoes.png) no-repeat center center, black;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+	background-size: cover, cover;
 }
 
 /*GALLERY PAGE STYLES*/
@@ -964,8 +1015,8 @@ body {
 .page-id-24 {
 	height: auto;
 	width: 100%;
-	background: url(img/cctv.png) no-repeat center center;
-	background-size: cover;
+	background: url(img/cctv.png) no-repeat center center, black;
+	background-size: cover, cover;
 }
 
 .page-id-24 a{
@@ -985,8 +1036,8 @@ body {
 .page-id-53 {
 	height: auto;
 	width: 100%;
-	background: url(img/hands.png) no-repeat center center;
-	background-size: cover;
+	background: url(img/hands.png) no-repeat center center, black;
+	background-size: cover, cover;
 }
 
 .page-id-53 p {
