@@ -409,10 +409,10 @@ body {
 	}
 	#sidebar {
 		display: block;
-		width: 31%;
+		width: 100%;/*increased width from 31*/
 		min-width: 15em;
 		margin-left: 3em;
-	}
+	} 
 /*}*/
 /* End BODY STYLES */
 
@@ -605,6 +605,11 @@ body {
 #sidebar .widget_archive ul li a {
 	color: #3b3b3b;
 }
+
+#sidebar ul li a{
+	color: #d60000; /*Added by Gareth*/
+}
+
 /* End SIDEBAR STYLES */
 
 /* NEXT / PREV STYLES */
@@ -1010,6 +1015,14 @@ body {
 	margin-bottom: 0;
 }
 
+.page-id-22 p {
+	color: white;
+}
+
+.page-id-22 p a {
+	color: red;
+}
+
 /*IMPACT PAGE STYLES*/
 
 .page-id-24 {
@@ -1050,5 +1063,57 @@ body {
 }
 
 .page-id-53 p a {
+	color: red;
+}
+
+/*SOMEWHERE NOWHERE PAGE STYLES*/
+
+.page-id-161 {
+	height: auto;
+	width: 100%;
+	background: black;
+	background-size: cover;
+}
+
+.page-id-161 .wp-block-columns {
+	margin: 0;
+}
+
+.page-id-161 .entry-title {
+	width: 375px;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.page-id-161 p {
+	color: white;
+}
+
+.page-id-161 p a {
+	color: red;
+}
+
+.page-id-207 {
+	height: auto;
+	width: 100%;
+	background: black;
+	background-size: cover;
+}
+
+.page-id-207 .wp-block-columns {
+	margin: 0;
+}
+
+.page-id-207 .entry-title {
+	width: 375px;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.page-id-207 p {
+	color: white;
+}
+
+.page-id-207 p a {
 	color: red;
 }
