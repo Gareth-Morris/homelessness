@@ -867,7 +867,7 @@ body {
 .home .content {
 	max-width: 1200px;
 	padding: 10em 3em 0 3em;
-	margin-top: 300px;
+	margin-top: 150px; /*reduced from 300px to fit laptop screen*/
 }
 .home .main-content {
 	display: block;
@@ -954,12 +954,14 @@ body {
 	}
 	.home .content {
 		float: right;
+		padding-top: 100px;
 	}
 }
 
 @media (max-width: 425px) {
 	.home .main-content {
 		float: left;
+		padding-top: 0px;
 	}
 
 	.home .content h2 {
@@ -969,10 +971,13 @@ body {
 
 	.home .content h1 {
 		text-align: center;
+		font-size: 42pt;
 	}
 
 	.home .content {
 		float: left;
+		margin-top: 0;
+		padding-top: 0;
 	}
 
 
@@ -1117,3 +1122,4 @@ body {
 .page-id-207 p a {
 	color: red;
 }
+
